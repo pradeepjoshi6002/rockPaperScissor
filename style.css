@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.comp,.human{
+    margin: 10px;
+  border-radius: 50%;
+  border: solid black;
+}
+.score-c,
+.score-h {
+  font-size: 42px;
+  margin: 0px;
+}
+.rock,
+.paper {
+  border-radius: 50%;
+  width: 160px;
+  height: 140px;
+}
+.scissor {
+  border-radius: 50%;
+  width: 160px;
+  height: 140px;
+}
+.rock1,
+.paper1,
+.scissor1 {
+  margin: 10px;
+  border-radius: 50%;
+  border: solid black;
+}
+.rock1:active,
+.paper1:active,
+.scissor1:active {
+  opacity: 0.7;
+}
+.comp,
+.human {
+  height: 200px;
+  width: 200px;
+}
